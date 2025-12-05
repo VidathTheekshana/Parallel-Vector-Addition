@@ -1,4 +1,0 @@
-=== MPI VECTOR ADDITION ===
-Processes: 4, Size: 10000000
-Time: 0.034 seconds
-First 5 results: 39 112 130 70 59 
