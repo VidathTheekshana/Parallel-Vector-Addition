@@ -390,11 +390,9 @@ pip install matplotlib numpy pandas seaborn
 
 [4] Google Colab Team, *Colab: Frequently Asked Questions*, 2024. [Online]. Available: https://research.google.com/colaboratory/faq.html
 
-[5] Apple Inc., *Apple M4 Chip: Technical Specifications*, 2024. [Online]. Available: https://www.apple.com/macbook-air/specs/
+[5] L. Dagum and R. Menon, "OpenMP: an industry standard API for shared-memory programming," *IEEE Computational Science & Engineering*, vol. 5, no. 1, pp. 46-55, Jan-Mar 1998.
 
-[6] L. Dagum and R. Menon, "OpenMP: an industry standard API for shared-memory programming," *IEEE Computational Science & Engineering*, vol. 5, no. 1, pp. 46-55, Jan-Mar 1998.
-
-[7] W. Gropp, E. Lusk, and A. Skjellum, *Using MPI: Portable Parallel Programming with the Message-Passing Interface*, 3rd ed. Cambridge, MA: MIT Press, 2014.
+[6] W. Gropp, E. Lusk, and A. Skjellum, *Using MPI: Portable Parallel Programming with the Message-Passing Interface*, 3rd ed. Cambridge, MA: MIT Press, 2014.
 
 ---
 
