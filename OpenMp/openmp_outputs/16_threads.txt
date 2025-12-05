@@ -1,0 +1,4 @@
+=== OPENMP VECTOR ADDITION ===
+Threads: 16, Size: 10000000
+Time: 0.004 seconds
+First 5 results: 39 112 130 70 59 
