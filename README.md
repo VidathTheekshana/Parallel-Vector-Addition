@@ -48,35 +48,7 @@ This project implements **vector addition** using four computing approaches:
 **Critical Insight**: 10M vector addition is **too small** to benefit from parallelism - overhead exceeds computation time, especially with CPU-GPU transfers!
 
 ---
-
-## 📁 **Repository Structure**
-
-### **Core Source Layout**
-```
-source_codes/
-├── Serial/                          # Serial baseline implementation
-│   ├── vector_add_serial.c          # Serial implementation
-│   └── Makefile                     # Build/run/test for serial
-│
-├── OpenMp/                          # OpenMP implementation
-│   ├── vector_add_omp.c             # OpenMP parallel version
-│   └── Makefile                     # Build/run/test/eval for OpenMP (THREADS variable)
-│
-├── Mpi/                             # MPI implementation
-│   ├── vector_add_mpi.c             # MPI distributed version
-│   └── Makefile                     # Build/run/test/eval for MPI (PROCS variable)
-│
-├── Cuda/                            # GPU implementation
-│   ├── vector_add_cuda.cu           # CUDA kernel code
-│   └── (Colab notebook + scripts)   # Cloud GPU testing
-│
-├── comparative_analysis/            # Comprehensive analysis
-│   └── complete_comparative_analysis.py  # Performance visualization
-│
-└── README.md                        # This documentation
-```
-
-### **Complete Project Structure**
+### 📁 **Repository Structure**
 ```
 Parallel-Vector-Addition/
 ├── source_codes/                    # All source code implementations
@@ -84,13 +56,18 @@ Parallel-Vector-Addition/
 │   ├── OpenMp/                      # OpenMP implementation
 │   ├── Mpi/                         # MPI implementation
 │   ├── Cuda/                        # CUDA implementation
-│   └── comparative_analysis/        # Performance analysis scripts
+│  
 │
 ├── Data_Files/                      # Generated data files
 │   ├── cuda_results/                # CUDA performance data
 │   ├── mpi_outputs/                 # MPI performance outputs
 │   ├── openmp_outputs/              # OpenMP performance outputs
-│   └── Graphs/                      # Performance visualizations
+│
+├── Graphs/                          # Performance visualizations
+│   ├── competitive_analysis/        # Comparative graphs
+│   ├── cuda_graphs/                 # CUDA-specific graphs
+│   ├── mpi_graphs/                  # MPI-specific graphs
+│   └── openmp_graphs/               # OpenMP-specific graphs
 │
 ├── Screenshots/                     # Execution proofs
 │   ├── cuda_screenshots/            # CUDA execution screenshots
@@ -101,8 +78,7 @@ Parallel-Vector-Addition/
 ├── report/                          # Documentation and reports
 │   └── project_report.pdf           # Complete project report
 │
-├── exec/                            # Compiled executables (generated)
-└── README.md                        # This documentation
+└── README.md                        # This documentation              
 ```
 
 ---
